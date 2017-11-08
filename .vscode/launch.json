@@ -4,7 +4,7 @@
         "type": "node",
         "request": "launch",
         "name": "Launch Program",
-        "program": "${workspaceFolder}/helloWorld.js"
+        "program": "${workspaceFolder}/dist/helloWorld.js"
     }],
     "compounds": []
 }
