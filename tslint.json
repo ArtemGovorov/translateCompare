@@ -1,9 +1,15 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended"
-    ],
-    "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"], // https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts
+  "jsRules": {},
+  "rules": {
+    "trailing-comma": {
+      "options": {
+          "multiline": "never",
+          "singleline": "never"
+      }
+  },
+  "rulesDirectory": []
+  }
 }
+

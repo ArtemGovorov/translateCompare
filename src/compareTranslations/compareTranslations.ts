@@ -1,8 +1,23 @@
+import {
+  ITranslationError,
+  IValidationResult,
+  Severity
+} from "./validator/comparisonValidator";
 export function compareTranslations(
   base: string,
-  translation: string,
-): string[] {
-  return ["hello"];
+  translation: string
+): IValidationResult[] {
+  const result = {
+    validatorName: "here",
+    errors: [
+      {
+        Message: `This is an error`,
+        Severity: Severity.information
+      }
+    ]
+  };
+
+  return [result];
 }
 
-export class TranslationResult {}
+export * from "./validator/comparisonValidator";
