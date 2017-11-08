@@ -1,4 +1,4 @@
-describe("calculator model", () => {
+describe("test model", () => {
     it("should match numbers", () => {
       expect(1).toBe(1);
     });
