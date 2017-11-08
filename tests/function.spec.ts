@@ -1,7 +1,9 @@
-import { MyFunctions } from "../src/myfunctions";
+describe("calculator model", () => {
+    it("should match numbers", () => {
+      expect(1).toBe(1);
+    });
 
-describe("calculator model", function() {
-    it("should add numbers", function() {
-      expect(1).toBe(2);
+    it("should behave...", () => {
+      expect(23).toBeCloseTo(23);
     });
 });

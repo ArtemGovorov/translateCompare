@@ -1,5 +1,8 @@
 {
   "name": "translatecompare",
+  "jest":{
+    "rootDir":"dist/tests/"
+  },
   "version": "1.0.0",
   "description": "As part of our translation solution we need to compare a translated json file with it's English source file and identify the following structural errors. - keys in baseFile that are not in translatedFile (missing keys). - keys in translatedFile that are not in baseFile (excess keys) - mismatched string interpolation placeholders (eg, \"hello {0}, {1}\" vs \"bonjour {0}\")",
   "main": "index.js",
