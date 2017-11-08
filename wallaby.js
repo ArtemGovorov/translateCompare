@@ -1,10 +1,11 @@
 module.exports = () => {
     return {
       files: [
+        'tsconfig.json',
         'src/**/*.ts',
       ],
       tests: [
-        'tests/**/*.spec.ts',
+        '**/*spec.ts',
       ],
       env: {
         type: 'node'
