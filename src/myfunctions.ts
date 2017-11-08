@@ -1,6 +1,7 @@
-export namespace MyFunctions
-{
-    export function Add(i:number, j:number){
-        return i + j;
-    }
+export function Add(i: number, j: number) {
+  return i + j;
+}
+
+export function Subtract(i: number, j: number) {
+  return i - j;
 }

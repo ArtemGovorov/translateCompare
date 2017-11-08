@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es3",
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "dist/"
+    "outDir": "dist/",
+    "types": ["jest"] // see http://www.typescriptlang.org/docs/handbook/tsconfig-json.html I think that, if you delete "types" altogheter, you might get all included by default
   }
 }
