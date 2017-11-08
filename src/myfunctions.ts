@@ -1,6 +1,6 @@
-export class MyFunctions
+export namespace MyFunctions
 {
-    public Add(i:number, j:number){
+    export function Add(i:number, j:number){
         return i + j;
     }
 }
