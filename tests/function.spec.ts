@@ -9,6 +9,6 @@ describe("test model", () => {
   });
 
   it("should add", () => {
-    expect(Add(1, 2)).toBe(5);
+    expect(Add(1, 2)).toBe(3);
   });
 });
