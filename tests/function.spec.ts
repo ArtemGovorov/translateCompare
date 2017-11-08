@@ -1,5 +1,5 @@
-import otherFunctions from "../src/moreFunctions";
-import { Add, Subtract } from "../src/myfunctions";
+import otherFunctions from "../src/Samples/moreFunctions";
+import { Add, Subtract } from "../src/Samples/myfunctions";
 
 describe("test model", () => {
   it("should match numbers", () => {
