@@ -1,7 +1,7 @@
-import { ComparisonValidator, compareTranslations } from "../src/compareTranslations/compareTranslations";
+import { compareTranslations, ComparisonValidator } from "../src/compareTranslations/compareTranslations";
 
 describe("compare translation tests", () => {
-  var comparer: ComparisonValidator;
+  let comparer: ComparisonValidator;
 
   beforeEach(() => {
     comparer = new ComparisonValidator();
