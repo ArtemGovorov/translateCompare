@@ -1,4 +1,4 @@
-import { MismatchedStringPlaceholdersValidator } from "./validators/MismatchedStringPlaceholdersValidator";
+import { MismatchedStringPlaceholdersValidator } from "./validators/mismatchedStringPlaceholdersValidator";
 import { MissingKeysValidator } from "./validators/missingKeysValidator";
 export class ComparisonValidator {
   public FullFileValidators: IFullFileValidator[] = [

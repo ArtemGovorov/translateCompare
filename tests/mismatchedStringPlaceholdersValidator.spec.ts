@@ -1,4 +1,4 @@
-import { MismatchedStringPlaceholdersValidator } from "./mismatchedStringPlaceholdersValidator";
+import { MismatchedStringPlaceholdersValidator } from "../src/compareTranslations/validator/validators/mismatchedStringPlaceholdersValidator";
 describe("compare translation tests", () => {
   let comparer: MismatchedStringPlaceholdersValidator;
 
