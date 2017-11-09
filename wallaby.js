@@ -3,6 +3,7 @@ module.exports = () => {
       files: [
         'tsconfig.json',
         'src/**/*.ts',
+        '!**/*spec.ts',
       ],
       tests: [
         '**/*spec.ts',
