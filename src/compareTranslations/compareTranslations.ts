@@ -12,7 +12,7 @@ export function compareTranslations(
     errors: [
       {
         Message: `This is an error`,
-        Severity: Severity.information
+        Severity: Severity.error
       }
     ]
   };

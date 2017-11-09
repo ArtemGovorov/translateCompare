@@ -12,6 +12,6 @@ describe("compare translation tests", () => {
   it("should have a severity", () => {
     const r = ct("a", "b");
     expect(r[0].errors.length).toBe(1);
-    expect(r[0].errors[0].Severity).toBe(Severity.information);
+    expect(r[0].errors[0].Severity).toBe(Severity.error);
   });
 });

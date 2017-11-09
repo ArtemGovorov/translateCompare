@@ -5,11 +5,9 @@
   "rules": {
     "trailing-comma": {
       "options": {
-          "multiline": "never",
-          "singleline": "never"
+        "multiline": "never",
+        "singleline": "never"
       }
-  },
-  "rulesDirectory": []
+    }
   }
 }
-

@@ -1,21 +1,23 @@
-import { ComparisonValidator } from "../src/compareTranslations/compareTranslations";
+import { ComparisonValidator, compareTranslations } from "../src/compareTranslations/compareTranslations";
 
 describe("compare translation tests", () => {
+  var comparer: ComparisonValidator;
+
   beforeEach(() => {
-    this.comparer = new ComparisonValidator();
+    comparer = new ComparisonValidator();
   });
 
   it("should behave...", () => {
-    expect(this.comparer).toBeTruthy();
+    expect(comparer).toBeTruthy();
   });
 
   it("should have a some phrase validators", () => {
-    expect(this.comparer.PhraseValidators).toBeDefined();
-    expect(this.comparer.PhraseValidators.length).toBe(1);
+    expect(comparer.PhraseValidators).toBeDefined();
+    expect(comparer.PhraseValidators.length).toBe(1);
   });
 
   it("should have a some file validators", () => {
-    expect(this.comparer.FullFileValidators).toBeDefined();
-    expect(this.comparer.FullFileValidators.length).toBe(1);
+    expect(comparer.FullFileValidators).toBeDefined();
+    expect(comparer.FullFileValidators.length).toBe(1);
   });
 });
